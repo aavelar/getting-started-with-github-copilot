@@ -74,6 +74,84 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participants-section {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid #e3e7ed;
+}
+
+.participants-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  color: #34445a;
+  font-size: 0.9rem;
+}
+
+.participant-count {
+  min-width: 24px;
+  padding: 1px 8px;
+  border-radius: 999px;
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.participants-list {
+  list-style: none;
+  padding-left: 0;
+  color: #475569;
+  font-size: 0.9rem;
+}
+
+.participants-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 4px;
+  min-height: 32px;
+}
+
+.participant-email {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.remove-participant {
+  display: inline-flex;
+  flex: 0 0 28px;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: 1px solid #f0c7c7;
+  border-radius: 50%;
+  background-color: #fff5f5;
+  color: #b42318;
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+.remove-participant:hover:not(:disabled) {
+  background-color: #b42318;
+  color: white;
+}
+
+.remove-participant:disabled {
+  cursor: wait;
+  opacity: 0.55;
+}
+
+.participants-empty {
+  color: #737d8b;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
